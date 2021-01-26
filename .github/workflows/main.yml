@@ -22,11 +22,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      - name: Visual Studio shell
-        # You may pin to the exact commit or the version.
-        # uses: egor-tensin/vs-shell@2cef0a902be6c2434178a0d0e4d83ae07a9dd0e0
-        uses: egor-tensin/vs-shell@v2
         
       - name: Install Qt
         uses: jurplel/install-qt-action@v2
